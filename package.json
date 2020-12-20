@@ -1,0 +1,41 @@
+{
+  "name": "react-boilerplate-app",
+  "version": "1.0.0",
+  "description": "React Frontend boilerplate served by Node js express serve backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon",
+    "client": "cd client && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run client\" \"nodemon\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGGaita/react-web-app-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "reactjs",
+    "express"
+  ],
+  "author": "Steve Gaita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SGGaita/react-web-app-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SGGaita/react-web-app-boilerplate#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mime": "^2.4.7",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysqli": "^3.0.11",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.5"
+  }
+}
